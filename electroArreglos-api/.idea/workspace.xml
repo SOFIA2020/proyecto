@@ -4,7 +4,61 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78139976-8a43-45a3-8228-e41132b416d0" name="Changes" comment="" />
+    <list default="true" id="cd9ee078-b21e-4c93-9b79-af591fbbd6e0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/electroArreglos/Confi/Constantes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/electroArreglos/controller/AdministradorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/electroArreglos/controller/ClienteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/electroArreglos/controller/ElectrodomesticoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/electroArreglos/controller/EstadoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/electroArreglos/controller/FileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/electroArreglos/controller/RolController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/electroArreglos/controller/TecnicoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/electroArreglos/controller/UsuarioController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/electroArreglos/dto/AdministradorDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/electroArreglos/dto/ClienteDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/electroArreglos/dto/ElectrodomesticoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/electroArreglos/dto/EstadoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/electroArreglos/dto/RolDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/electroArreglos/dto/ServerResponseDataDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/electroArreglos/dto/ServerResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/electroArreglos/dto/TecnicoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/electroArreglos/dto/UsuarioDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/electroArreglos/entity/AdministradorEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/electroArreglos/entity/ClienteEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/electroArreglos/entity/ElectrodomesticoEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/electroArreglos/entity/EstadoEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/electroArreglos/entity/RolEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/electroArreglos/entity/TecnicoEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/electroArreglos/entity/UsuarioEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/electroArreglos/exception/EmailNotValidException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/electroArreglos/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/electroArreglos/pruebas/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/electroArreglos/repository/AdministradorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/electroArreglos/repository/ClienteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/electroArreglos/repository/ElectrodomesticoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/electroArreglos/repository/EstadoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/electroArreglos/repository/RolRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/electroArreglos/repository/TecnicoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/electroArreglos/repository/UsuarioRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/electroArreglos/service/AdministradorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/electroArreglos/service/ClienteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/electroArreglos/service/ElectrodomesticoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/electroArreglos/service/EstadoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/electroArreglos/service/RolService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/electroArreglos/service/TecnicoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/electroArreglos/service/UsuarioService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/electroArreglos/ElectroArreglosApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/Captura de pantalla 2024-08-04 193621.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/electro_arreglos.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../database/electro_arreglos.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/electroArreglos/controller/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,39 +80,31 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
       </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
-  <component name="ProjectId" id="2kCw0AG6AmBLDPGQ8tzWWrwgY5Y" />
+  <component name="ProjectId" id="2nMWtfmBQdiq3DeaDVu0Bwnb41m" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;Spring Boot.ElectroArreglosApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Merging main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/SofiaGP/SENA/Software/Prueba/pruebas-api&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/SofiaGP/SENA/Software/Proyecto/proyecto/electroArreglos-api&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -72,29 +118,19 @@
       </method>
     </configuration>
   </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
-      </set>
-    </attachedChunks>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="78139976-8a43-45a3-8228-e41132b416d0" name="Changes" comment="" />
-      <created>1722800640495</created>
+      <changelist id="cd9ee078-b21e-4c93-9b79-af591fbbd6e0" name="Changes" comment="" />
+      <created>1728783642339</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1722800640495</updated>
-      <workItem from="1722800641614" duration="4584000" />
-      <workItem from="1722818689857" duration="260000" />
-      <workItem from="1722820913250" duration="53000" />
-      <workItem from="1723066129467" duration="1951000" />
-      <workItem from="1723074637929" duration="132000" />
-      <workItem from="1723075064193" duration="1419000" />
-      <workItem from="1723076873839" duration="526000" />
-      <workItem from="1723078349061" duration="1017000" />
+      <updated>1728783642339</updated>
+      <workItem from="1728783643511" duration="9787000" />
+      <workItem from="1728840943040" duration="138000" />
+      <workItem from="1729043680610" duration="102000" />
+      <workItem from="1729120643788" duration="1618000" />
+      <workItem from="1729203691927" duration="3241000" />
     </task>
     <servers />
   </component>

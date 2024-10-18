@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <title>Electro Arreglos</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome para los íconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Sistema de Gestión Electro Arreglos</h1>
+
+        <!-- Menú de navegación -->
+        <ul class="nav nav-pills nav-fill">
+            <li class="nav-item">
+                <button class="nav-link active" id="clientes-tab" data-bs-toggle="tab" data-bs-target="#clientes"
+                    type="button" role="tab" aria-controls="clientes" aria-selected="true">Gestión de Clientes</button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" id="tecnicos-tab" data-bs-toggle="tab" data-bs-target="#tecnicos"
+                    type="button" role="tab" aria-controls="tecnicos" aria-selected="false">Gestión de Técnicos</button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" id="electrodomesticos-tab" data-bs-toggle="tab" data-bs-target="#electrodomesticos"
+                    type="button" role="tab" aria-controls="electrodomesticos" aria-selected="false">Gestión de Electrodomésticos</button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" id="estado-tab" data-bs-toggle="tab" data-bs-target="#estado"
+                    type="button" role="tab" aria-controls="estado" aria-selected="false">Gestión de Estados</button>
+            </li>
+        </ul>
+        <!-- Contenido de las secciones -->
+        <div class="tab-content" id="myTabContent">
+            <!-- Gestión de Clientes -->
+            <div class="tab-pane fade show active" id="clientes" role="tabpanel" aria-labelledby="clientes-tab">
+                <div class="mt-4">
+                    <!-- Formulario de Clientes -->
+                    <form id="formCliente">
+                        <div class="mb-3">
+                            <label for="nombreCliente" class="form-label">Nombre del Cliente</label>
+                            <input type="text" class="form-control" id="nombreCliente" required placeholder="Nombre">
+                        </div>
+                        <div class="mb-3">                        
+                            <label for="cedula" class="form-label">Cedula del Cliente</label>
+                            <input type="text" class="form-control" id="cedulaCliente" required placeholder="cedula">
+                        </div>
+                        <div class="mb-3">                        
+                            <label for="emailCliente" class="form-label">Correo del Cliente</label>
+                            <input type="email" class="form-control" id="emailCliente" required placeholder="email">
+                        </div>
+                        <div class="mb-3">                        
+                            <label for="celularCliente" class="form-label">Celular del Cliente</label>
+                            <input type="text" class="form-control" id="celularCliente" required placeholder="celular">
+                        </div>
+                        <div class="mb-3">
+                            <label for="direccionCliente" class="form-label">Dirección del Cliente</label>
+                            <input type="text" class="form-control" id="direccionCliente" required placeholder="Direccion">
+                        </div>
+                        <div class="mb-3">                        
+                            <label for="Fecha" class="form-label">Fecha de Ingreso del Cliente</label>
+                            <input type="date" class="form-control" id="emailCliente" required placeholder="Fecha">
+                        </div>   
+                         <!-- Botón Guardar -->
+                        <div class="mb-3">
+                            <button type="submit" class="btn btn-primary">Guardar</button>
+                        </div>                             
+                    </form>
+                    <!-- Tabla de Clientes -->
+                    <table class="table mt-4">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Nombre</th>
+                                <th>Cedula</th>
+                                <th>Email</th>
+                                <th>Celular</th>
+                                <th>Dirección</th>
+                                <th>Ingreso</th>
+                            </tr>
+                        </thead>
+                        <tbody id="listaClientes">
+                            <td>1</td> 
+                                <td>Juan Pérez</td>
+                                <td>123456789</td>
+                                <td>juan@example.com</td>
+                                <td>3123456789</td>
+                                <td>Calle 123</td>
+                                <td>2024-09-29</td>                                
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- Gestión de Técnicos -->
+            <div class="tab-pane fade" id="tecnicos" role="tabpanel" aria-labelledby="tecnicos-tab">
+                <div class="mt-4">
+                    <!-- Formulario de Técnicos -->
+                    <form id="formTecnico">
+                        <div class="mb-3">
+                            <label for="nombreTecnico" class="form-label">Nombre del Técnico</label>
+                            <input type="text" class="form-control" id="nombreTecnico" placeholder="Nombre">
+                        </div>
+                        <div class="mb-3">                        
+                            <label for="cedulaTecnico" class="form-label">Cedula del Técnico</label>
+                            <input type="text" class="form-control" id="cedulaTecnico" required placeholder="cedula">
+                        </div>
+                        <div class="mb-3">                        
+                            <label for="emailTecnco" class="form-label">Correo del Técnico</label>
+                            <input type="email" class="form-control" id="emailTecnco" required placeholder="email">
+                        </div>
+                        <div class="mb-3">                        
+                            <label for="celularTecnico" class="form-label">Celular del Cliente</label>
+                            <input type="text" class="form-control" id="celularTecnico" required placeholder="celular">
+                        </div>
+                        <div class="mb-3">
+                            <label for="tituloTecnico" class="form-label">Título del Técnico</label>
+                            <input type="text" class="form-control" id="tituloTecnico" required placeholder="Título">
+                        </div>
+                        <div class="mb-3">
+                            <button type="submit" class="btn btn-primary">Guardar</button>
+                        </div> 
+                    </form>
+
+                    <!-- Tabla de Técnicos -->
+                    <table class="table mt-4">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Nombre</th>
+                                <th>Cedula</th>
+                                <th>Correo</th>
+                                <th>Celular</th>
+                                <th>Título</th>                            
+                            </tr>
+                        </thead>
+                        <tbody id="listaTecnicos">
+                            <!-- Técnicos generados dinámicamente -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Gestión de Electrodomésticos -->
+            <div class="tab-pane fade" id="electrodomesticos" role="tabpanel" aria-labelledby="electrodomesticos-tab">
+                <div class="mt-4">
+                    <!-- Formulario de Electrodomésticos -->
+                    <form id="formElectrodomestico">
+                        <div class="mb-3">
+                            <label for="tipoElectrodomestico" class="form-label">Tipo de Electrodoméstico</label>
+                            <input type="text" class="form-control" id="tipoElectrodomestico" placeholder="Tipo">
+                        </div>
+                        <div class="mb-3">
+                            <label for="marcaElectrodomestico" class="form-label">Marca del Electrodoméstico</label>
+                            <input type="text" class="form-control" id="marcaElectrodomestico" placeholder="Marca">
+                        </div>
+                        <div class="mb-3">
+                            <label for="serieElectrodomestico" class="form-label">Serial del Electrodoméstico</label>
+                            <input type="text" class="form-control" id="serieElectrodomestico" placeholder="Serial">
+                        </div>
+                        <div class="mb-3">
+                            <label for="ingresoElectrodomestico" class="form-label">Ingreso de Electrodoméstico</label>
+                            <input type="date" class="form-control" id="ingresoElectrodomestico" placeholder="Ingreso">
+                        </div>
+                        <div class="mb-3">
+                            <button type="submit" class="btn btn-primary">Guardar</button>
+                        </div> 
+                    </form>
+
+                    <!-- Tabla de Electrodomésticos -->
+                    <table class="table mt-4">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Tipo</th>
+                                <th>Marca</th>
+                                <th>Serial</th>
+                                <th>Ingreso</th>
+                            </tr>
+                        </thead>
+                        <tbody id="listaElectrodomesticos">
+                            <!-- Electrodomésticos generados dinámicamente -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- Gestión de Estado -->
+            <div class="tab-pane fade" id="estado" role="tabpanel" aria-labelledby="estado-tab">
+                <div class="mt-4">
+                    <!-- Formulario de Estado -->
+                    <form id="formElectrodomestico">
+                        <div class="mb-3">
+                            <label for="estadoElectrodomestico" class="form-label">Estado del Electrodoméstico</label>
+                            <input type="text" class="form-control" id="estadoElectrodomestico" placeholder="Tipo">
+                        </div>
+                        <div class="mb-3">
+                            <label for="ingresoElectrodomestico" class="form-label">Ingreso del Electrodoméstico</label>
+                            <input type="date" class="form-control" id="ingresoElectrodomestico" placeholder="Ingreso">
+                        </div>
+                        <div class="mb-3">
+                            <label for="salidaElectrodomestico" class="form-label">Salida del Electrodoméstico</label>
+                            <input type="date" class="form-control" id="salidaElectrodomestico" placeholder="Salida">
+                        </div>
+                        <div class="mb-3">
+                            <button type="submit" class="btn btn-primary">Guardar</button>
+                        </div> 
+                    </form>
+
+                    <!-- Tabla de Estado -->
+                    <table class="table mt-4">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Estado</th>
+                                <th>Ingreso</th>
+                                <th>Salida</th>
+                            </tr>
+                        </thead>
+                        <tbody id="listaEstado">
+                            <!-- Electrodomésticos generados dinámicamente -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    </script>        
+    <script src="assets/js/core.js"></script>
+    <script src="assets/js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
